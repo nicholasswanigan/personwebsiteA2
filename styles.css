@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Patrick Hand', cursive;
+}
+/* -------------------------------------Header------------------------------------------------------------- */
+header {
+    background-color: #2F4A6C;
+    color: #F3E8EE;
+    text-align: center;
+    padding: 1em 0; /* 1em of padding at the top and bottom of the header, no padding on the left or right.*/
+    /* 1em is the length in pixels of the font in the element */
+    
+}
+
+h1{
+    font-size: xxx-large;
+    margin-bottom: 0px;
+}
+nav a{
+    text-decoration: none; /* no under line */
+    font-weight: bold;
+    color: #05111B;
+    font-size: x-large;
+}
+
+nav ul {
+    list-style: none; /* gets rid of the buttles */
+}
+
+nav li {
+    display: inline; /* makes it so that each item will be displayed on its own line */
+    margin-right: 30px;
+}
+/* -------------------------------------Header------------------------------------------------------------- */
+h1 {
+    text-align: center;
+}
+
+.quote {
+    font-size: x-large;
+    text-align: center;
+    background-color: #F3E8EE;
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+/* -------------------------------------------Footer-------------------------------------------------------- */
+footer {
+    position: static;
+    padding: 20px;
+    background-color: #05111B;
+    color: #F3E8EE;
+    margin-top: 10px;
+    
+}
+.fixed footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* -------------------------------------------Footer-------------------------------------------------------- */
+.mainpage{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+/* ------------------------------------Cards--------------------------------------------------------------- */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: x-large;
+    
+}
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+/* ------------------------------------Cards--------------------------------------------------------------- */
+
+/* --------------------------------------------Form---------------------------------------------------- */
+
+.form {
+    padding: 20px; 
+    background-color: #2F4A6C;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    font-size: x-large;
+}
+
+/* --------------------------------------------Form---------------------------------------------------- */

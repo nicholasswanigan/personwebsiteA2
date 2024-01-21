@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Handlee&family=Mooli&family=Palanquin&family=Patrick+Hand&display=swap"
+        rel="stylesheet">
+    <title>Personal Website</title>
+</head>
+
+<body>
+    <header>
+        <h1>Nicholas Swanigan</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fun.html">Fun</a></li>
+                <li><a href="goals.html">Goals</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>My future Goals</h1><br>
+    <div class="form">
+        <p>To code on a beach and to have a Porsch GT3 RS <br>I made this image to illustrate</p>
+        <img src="images/future.jpg" alt="me in the future " style="width: 40%;">
+        <form action="/submit" method="post">
+
+
+            <label for="customerName">Your Name:</label>
+            <input type="text" id="customerName" name="customerName" placeholder="John Doe">
+
+            <br>
+
+            <label>Size:</label>
+            <label for="small">Small</label>
+            <input type="radio" id="small" name="size" value="small">
+            <label for="medium">Medium</label>
+            <input type="radio" id="medium" name="size" value="medium">
+            <label for="large">Large</label>
+            <input type="radio" id="large" name="size" value="large">
+
+            <br>
+
+            <label>Toppings:</label>
+            <label for="cheese">Cheese</label>
+            <input type="checkbox" id="cheese" name="topping" value="cheese">
+            <label for="pepperoni">Pepperoni</label>
+            <input type="checkbox" id="pepperoni" name="topping" value="pepperoni">
+            <label for="mushrooms">Mushrooms</label>
+            <input type="checkbox" id="mushrooms" name="topping" value="mushrooms">
+
+            <br>
+
+            <label for="crust">Crust:</label>
+            <select id="crust" name="crust">
+                <option value="thin">Thin Crust</option>
+                <option value="thick">Thick Crust</option>
+                <option value="stuffed">Stuffed Crust</option>
+            </select>
+            <br>
+
+            <label for="instructions">Additional Instructions:</label>
+            <textarea id="instructions" name="instructions" placeholder="Special requests or instructions"></textarea>
+
+            <br>
+            <input type="submit" value="Place Order">
+        </form>
+    </div>
+
+    <footer>
+        Contact: <br><br>
+        Phone: (418) 840-5679 <br><br>
+        Email: nickswanigan@gmail.com <br><br>
+        Carrier Pigeon Name: William Heal <br>
+        - He likes everything bagel seasoning <br><br>
+    </footer>
+
+</body>
+
+</html>
